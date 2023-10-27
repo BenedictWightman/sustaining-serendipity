@@ -1,10 +1,25 @@
-header{
-	margin:0;
-	padding:0;
-	background-image: url(https://www.pexels.com/photo/white-sailboat-on-water-273886/) height:200px;
+body{
+	margin:0 auto;
+	background: #222;
+	font-family: verdana;
+	font-weight:300;
 }
-.title{
+header{
+	background-color: #55d6aa;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.items{
 	font-family: verdana;
 	font-size: 40px;
 	color: white;
 }
+
+
