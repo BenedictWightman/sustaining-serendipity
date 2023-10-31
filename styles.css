@@ -1,25 +1,36 @@
+.logo{
+	height:200px;
+	width: 200px;
+	cursor: pointer;
+}
 body{
-	margin:0 auto;
-	background: #222;
-	font-family: verdana;
-	font-weight:300;
+	margin: 0 auto;
+	background-color: #0A1E39;
 }
 header{
-	background-color: #55d6aa;
-}
-.container{
-	width:80%;
-	margin:0 auto;
-	display:flex;
-	flex-direction: row;
+	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
+	background-color: #0A1E39;
 }
-
-.items{
-	font-family: verdana;
-	font-size: 40px;
-	color: white;
+li, a {
+	font-family:'Della Respira' serif;
+	font-weight: 500;
+	font-size:16px;
+	color: #edf0f1;
+	text-decoration: none;
 }
-
-
+.nav_list{
+	list-style: none;
+	color:black;
+}
+.nav_list li{
+	display: inline-block;
+	padding: 0 20px ;
+}
+.nav_list li a{
+	transition: all 0.3s ease 0s;
+}
+.nav_list li a:hover{
+	color: #0088a9;
+}
