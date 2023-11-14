@@ -6,6 +6,7 @@
 body{
 	margin: 0 auto;
 	background-color: #0A1E39;
+
 }
 header{
 	display: flex;
@@ -13,10 +14,15 @@ header{
 	align-items: center;
 	background-color: #0A1E39;
 }
+main{
+	background-image: url("images/body-background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
 li, a {
 	font-family:'Della Respira' serif;
-	font-weight: 500;
-	font-size:16px;
+	font-weight:500;
+	font-size: 40px;
 	color: #edf0f1;
 	text-decoration: none;
 }
