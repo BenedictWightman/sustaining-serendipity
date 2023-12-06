@@ -40,6 +40,15 @@ li, a {
 	color: #edf0f1;
 	text-decoration: none;
 }
+.grid-container{
+	display: grid;
+	gap:10px;
+	grid-template: auto auto;
+	height:100px;
+}
+.grid-item{
+	color: cornflowerblue;
+}
 .nav_list{
 	list-style: none;
 	color:black;
